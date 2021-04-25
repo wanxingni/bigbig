@@ -21,6 +21,7 @@ $(function() {
 
     // 2.自定义表单校验规则
     layui.form.verify({
+        
         // 密码的规则
         pwd: [
             /^[\S]{6,12}$/,
